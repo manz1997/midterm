@@ -240,12 +240,12 @@ padding-left: 7.5px;
 padding-right: 7.5px;
 cursor: pointer;
 background-color: #d4e9e7;
-border-radius: 4px;
-transition: ease-out 0.3s;
-font-size: 12px;
+	border-radius: 4px;
+	transition: ease-out 0.3s;
+	font-size: 12px;
 }
 .send:hover {
-box-shadow: inset 50px 0 0 0 #3BC4BE;
+	box-shadow: inset 50px 0 0 0 #3BC4BE;
 }
 
 .copyright {
