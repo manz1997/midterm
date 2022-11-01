@@ -232,7 +232,8 @@ h5 {
 /* STYLING FOR RADIO BUTTON*/ 
 
 .radiobutton {
-	display: inline-flex; }
+	display: inline-flex;
+ }
 
 .label1 {
 	margin: 0 auto;
