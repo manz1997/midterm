@@ -121,7 +121,8 @@ button {
  .line-top + .line-top {
 	border-left: solid 1px black;
  }
- /* /////// heading two and paragraph one*/
+
+ /* /////// heading two and paragraph one ///////// */
 
  .image__two {
 	width: 251px;
@@ -229,7 +230,8 @@ h5 {
 	left: 0;
 	display: inline-block;
 	}
-/* STYLING FOR RADIO BUTTON*/ 
+
+/* //////// STYLING FOR RADIO BUTTON ////////// */ 
 
 .radiobutton {
 	display: inline-flex; }
@@ -255,7 +257,8 @@ h5 {
 	bottom: -0.5px;
 	left: 74px;
 }
-/* STYLING FOR THE SEND BUTTON WITH EXTRA HOVER OVER STYLING*/
+
+/* ////////  STYLING FOR THE SEND BUTTON WITH EXTRA HOVER OVER STYLING ///////// */
 
 .send {
 	width: 50px;
