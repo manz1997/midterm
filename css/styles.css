@@ -62,20 +62,22 @@ body {
 }
 
 h1 {
-    position: relative;
+    position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
 	color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    top: 44px;
-	font-size: 60px;
+	top: 200px;
+	font-size: 63px;
+	margin: 0 auto;
+	z-index: 100;
 }
 
-.wide {
+.image-one {
 	margin-left: 0px;
-    margin-right: 8px;
-    margin-top: -18px;
+    margin-right: 9px;
+    margin-top: -25px;
     margin-bottom: 4px;
 	position: relative;
     text-align: center;
@@ -110,7 +112,6 @@ button {
 	justify-content: space-between;
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-top: -10px;
   }
  .line-top {
 	flex: 1 1 auto;
@@ -137,7 +138,7 @@ h2 {
 	padding-top: 40px;
 	margin-left: 12px;
  }
-article {
+.stuff {
 	line-height: 1.4;
 	margin: 17px 25px 36px 10px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -222,40 +223,54 @@ h5 {
 
 }
 
-.radio_01 
-	[type='radio'] {
-	height: 15px;
-	width: 15px;
-	left: 0;
-	display: inline-block;
-	}
 /* STYLING FOR RADIO BUTTON*/ 
 
-.radiobutton {
-	display: inline-flex;
- }
-
-.label1 {
-	margin: 0 auto;
-	margin-right: -7px;
+input[type='radio'] { 
+    transform: scale(1); 
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    display: inline-block;
 }
+
+.radio_01 .action {
+    display: flex;
+    flex-flow: row wrap;
+}
+
 .radiobutton01 {
-	position: relative;
-	bottom: -0.5px;
-	left: 52px;
-	margin-left: 0.5px;
+    position: relative;
+    bottom: 1px;
+    left: 39px;
 }
 
 .radiobutton02 {
-	position: relative;
-	bottom: -0.5px;
-	left: 47px;
+    position: relative;
+    bottom: 1px;
+    left: 42px;
 }
-.radiobuttom03 {
-	position: relative;
-	bottom: -0.5px;
-	left: 74px;
+
+.radiobutton03 {
+    position: relative;
+    bottom: 1.2px;
+    left: 75px;
 }
+
+.label1, .label2, .label3 {
+    font-size: 18.67px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -10px;
+    margin-bottom: 15px;
+}
+
+.label1 {
+	margin-left: -22px;
+}
+
+.label3 {
+    margin-left: -10px;
+}
+
 /* STYLING FOR THE SEND BUTTON WITH EXTRA HOVER OVER STYLING*/
 
 .send {
